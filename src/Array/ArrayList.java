@@ -1,4 +1,4 @@
-package ArrayList;
+package Array;
 
 public class ArrayList implements List {
     private int number[];

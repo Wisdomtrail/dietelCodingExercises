@@ -1,4 +1,4 @@
-package ArrayList;
+package Array;
 //package org.eagles.dataStructuresImpl.list.arrayList;
 
 import org.junit.jupiter.api.BeforeEach;
