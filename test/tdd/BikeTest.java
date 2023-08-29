@@ -16,6 +16,7 @@ public class BikeTest {
         Assertions.assertTrue(sundayBike.checkPowerOn());
     }
 
+
     @Test
     public void powerOffTest(){
         //given that i have a bike

@@ -9,9 +9,7 @@ public class CarApplication {
 
         System.out.println(lexus.getPrice());
         System.out.println(camry.getPrice());
-
-
-
+        System.out.println(camry.getModel());
 
     }
 }
