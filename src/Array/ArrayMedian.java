@@ -1,5 +1,7 @@
 package Array;
 import java.util.ArrayList;
+import java.util.Arrays;
+
 public class ArrayMedian {
     public static void main(String[] args) {
         System.out.println(medianOfTwoSortedArrays(new int[]{1,2,3,4}, new int[]{1,2}));
@@ -7,6 +9,7 @@ public class ArrayMedian {
 
     public static Double medianOfTwoSortedArrays(int[] array1, int[] array2){
         ArrayList<Integer> arrayList = new ArrayList<>();
+        System.out.println(Arrays.toString(array1));
         for (int i = 0; i < array1.length; i++) {
             arrayList.add(array1[i]);
         }
