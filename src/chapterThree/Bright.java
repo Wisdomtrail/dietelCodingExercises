@@ -7,6 +7,7 @@ public class Bright {
         int firstNum = Integer.parseInt(sout("enter first number"));
         int secondNum = Integer.parseInt(sout("enter second number"));
         System.out.println(firstNum);
+        System.out.println(secondNum);
         int sum = firstNum+secondNum;
         display("the sum is "+ sum);
     }
